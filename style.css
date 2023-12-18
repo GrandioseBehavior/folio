@@ -25,6 +25,7 @@
    .title
       {width:70%;margin-left:auto;margin-right:auto;white-space: nowrap;}
    .marquee {position:absolute;height:10%;top:85%;bottom:0;left:0;right:0;}
+   @media screen (height:80%) {.container{height:60%}}
 
 
 /* MENU */
@@ -47,7 +48,7 @@
 
 /* TEXT STYLING */      
    h1
-      {margin-bottom:-3.2px;padding-left:10px;color: black;font-size:5.5vw;
+      {margin-bottom:-3.2px;padding-left:10px;color: black;font-size:6vw;
          font-style:italic;font-weight:100;position:relative;font-family:Hyper;-webkit-text-stroke-color: rgb(13, 255, 0);-webkit-text-stroke-width:3px;  -webkit-animation: h1 2s ease-in-out infinite alternate;-moz-animation: h1 2s ease-in-out infinite alternate;animation: h1 2s ease-in-out infinite alternate;}
    h3
       {font-family:Samba;font-size:2.5rem;font-weight:100px;color:rgb(165, 30, 255);text-shadow:.5px .5px white;padding-left:30px;padding-top:10px;}
