@@ -25,7 +25,7 @@
    .title
       {width:70%;margin-left:auto;margin-right:auto;white-space: nowrap;}
    .marquee {position:absolute;height:10%;top:85%;bottom:0;left:0;right:0;}
-   @media (min-height:50%) and (max-height:80%) {/*...*/}
+   @media (max-height:480px) {.container{height:60%}}
 
 /* MENU */
    .menu
