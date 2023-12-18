@@ -14,25 +14,25 @@
 
 /* PAGE STRUCTURE */
    body
-      {background: url(https://github.com/GrandioseBehavior/folio/blob/main/Texturelabs_Metal_199M.jpg?raw=true);border-top: no-repeat;background-size: cover;}
-   .holder
-      {height:90%;width:90%;margin:auto;position:absolute;top:0;bottom:0;left:0;right:0;padding-top:35px;overflow:hidden;}
+      {background: url(https://github.com/GrandioseBehavior/folio/blob/main/Texturelabs_Metal_199M.jpg?raw=true);background-repeat:no-repeat;}
 
 
 /* SECTIONS */
+   .holder
+{display:flex; justify-content:center;align-items:center;flex-direction:column;height:90%;width:90%;margin:auto;position:absolute;top:0;bottom:0;left:0;right:0;overflow:hidden;}
    .container
-      {background-color:rgb(0,0,0,.5);height:80%;width:80%;margin-left:auto;margin-right:auto;border:5px solid rgb(13, 255, 0);position:relative;}
+      {background-color:rgb(0,0,0,.5);height:80%;width:70%;margin-left:auto;margin-right:auto;border:5px solid rgb(13, 255, 0);position:relative;}
    .title
-      {width:80%;margin-left:auto;margin-right:auto;white-space: nowrap;}
+      {width:70%;margin-left:auto;margin-right:auto;white-space: nowrap;}
    .marquee
-      {position:relative;height:50px;}
+      {position:absolute;height:5%;top:87%;bottom:0;left:0;right:0;}
 
 
 /* MENU */
    .menu
       {width:100%;overflow:hidden;white-space: nowrap;background-color: rgb(0,0,0,.8);display:flex;flex-direction:row;align-items:center;}
    .menu a
-      {font-family:Samba;float: left;padding-top: 5px; padding-bottom:5px;color: white;text-decoration: none;font-size: 18px;width: 25%;text-align: center;word-spacing:-3px;overflow:hidden;white-space: nowrap;}
+      {font-family:Samba;float: left;padding-top: 5px; padding-bottom:5px;color: white;text-decoration: none;font-size: 2vw;width: 25%;text-align: center;word-spacing:-3px;overflow:hidden;white-space: nowrap;}
    .menu a:hover
       {color:rgb(165, 30, 255);}
 
@@ -48,24 +48,24 @@
 
 /* TEXT STYLING */      
    h1
-      {margin-bottom:-3.2px;padding-left:10px;color: black;font-size:3rem;
-         font-style:italic;font-weight:100;position:relative;font-family:Hyper;-webkit-text-stroke-color: rgb(13, 255, 0);-webkit-text-stroke-width:3px;  -webkit-animation: h1 2s ease-in-out infinite alternate;-moz-animation: h1 2s ease-in-out infinite alternate;animation: h1 2s ease-in-out infinite alternate;white-space: nowrap;}
+      {margin-bottom:-3.2px;padding-left:10px;color: black;font-size:5.5vw;
+         font-style:italic;font-weight:100;position:relative;font-family:Hyper;-webkit-text-stroke-color: rgb(13, 255, 0);-webkit-text-stroke-width:3px;  -webkit-animation: h1 2s ease-in-out infinite alternate;-moz-animation: h1 2s ease-in-out infinite alternate;animation: h1 2s ease-in-out infinite alternate;}
    h3
       {font-family:Samba;font-size:2.5rem;font-weight:100px;color:rgb(165, 30, 255);text-shadow:.5px .5px white;padding-left:30px;padding-top:10px;}
    p
-      {letter-spacing:6px;color:rgb(165, 30, 255);font-size:18px;font-weight:100;font-family:Samba;white-space: nowrap;position:absolute; margin: 0;height:100%;text-align: center;text-shadow: .5px .5px white;-moz-transform: translateX(100%);-webkit-transform: translateX(100%);transform: translateX(100%);-moz-animation: scroll-left 1s linear infinite;-webkit-animation: scroll-left 1s linear infinite;animation: scroll-left 15s linear infinite;}
+      {letter-spacing:6px;color:rgb(165, 30, 255);font-size:2vw;font-weight:100;font-family:Samba;white-space: nowrap;position:absolute; margin: 0;height:100%;text-align: center;text-shadow: .5px .5px white;-moz-transform: translateX(100%);-webkit-transform: translateX(100%);transform: translateX(100%);-moz-animation: scroll-left 1s linear infinite;-webkit-animation: scroll-left 1s linear infinite;animation: scroll-left 15s linear infinite;}
    p > b 
-      {color: rgb(13, 255, 0);font-weight:100;}
+      {color: rgb(13, 255, 0);font-weight:100;font-size:2vw;}
 
    .text
       {font-family:Samba;font-size:1.5rem;color:white; padding-left:40px;padding-right:40px;text-align:justify;padding-top:10px;
       overflow:hidden;letter-spacing:.1rem;}
 
 .imagecontainer
-         {height:350px;width:100%;overflow:auto;position:relative;top:40px;}
+         {height:90%;width:100%;overflow:auto;position:absolute;}
 
    div.scroll-container 
-      {overflow: auto;white-space: nowrap;padding: 10px;height:330px;position:absolute;margin:auto;top:0;bottom:0;left:0;right:0;}
+      {overflow: auto;white-space: nowrap;padding: 10px;height:90%;position:absolute;margin:auto;top:0;bottom:0;left:0;right:0;}
        
    div.scroll-container img 
       {padding-left:2.5px;padding-right:2.5px;}
@@ -104,3 +104,4 @@
             {-moz-transform: translateX(-100%);
             -webkit-transform: translateX(-100%);
             transform: translateX(-100%);}}
+            
