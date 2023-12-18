@@ -25,7 +25,7 @@
    .title
       {width:80%;margin-left:auto;margin-right:auto;white-space: nowrap;}
    .marquee
-      {position:relative;height:50px;padding-top:20px;}
+      {position:relative;height:50px;}
 
 
 /* MENU */
@@ -60,6 +60,19 @@
    .text
       {font-family:Samba;font-size:1.5rem;color:white; padding-left:40px;padding-right:40px;text-align:justify;padding-top:10px;
       overflow:hidden;letter-spacing:.1rem;}
+
+.imagecontainer
+         {height:350px;width:100%;overflow:auto;position:relative;top:40px;}
+
+   div.scroll-container 
+      {overflow: auto;white-space: nowrap;padding: 10px;height:330px;position:absolute;margin:auto;top:0;bottom:0;left:0;right:0;}
+       
+   div.scroll-container img 
+      {padding-left:2.5px;padding-right:2.5px;}
+       
+      .scroll-container::-webkit-scrollbar {
+         display: none;
+       }
 
 /* TITLE ANIMATION */
    @-webkit-keyframes h1 
